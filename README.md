@@ -22,7 +22,7 @@ bash# mysql -uroot -uroot
 
 mysql> select user,host from mysql.user;
   
-mysql> GRANT ALL PRIVILEGES ON *.* TO 'user'@'%' WITH GRANT OPTION;
+mysql> GRANT ALL PRIVILEGES ON \*.\* TO 'root'@'%' WITH GRANT OPTION;
   
 mysql> Flush privileges
 
