@@ -1,6 +1,6 @@
 # springMysql-docker
 
-**Containrized Spring boot application with basic CRUD operations and MySQL container as DB using Docker.**
+**Containrized Spring boot application which performs basic CRUD operations with MySQL container as DB using Docker.**
 
 Connected to 'mysql/mysql-docker' container (https://github.com/mysql/mysql-docker/blob/mysql-server/8.0/Dockerfile)  for MySQL database connection for Mac M1.
 
