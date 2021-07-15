@@ -21,8 +21,10 @@ docker exec -it <mysql-container> /bin/bash/
 bash# mysql -uroot -uroot
 
 mysql> select user,host from mysql.user;
+
+mysql> update mysql.user set host='%' where user='root';
   
-mysql> GRANT ALL PRIVILEGES ON \*.\* TO 'root'@'%' WITH GRANT OPTION;
+mysql> mysql> GRANT ALL PRIVILEGES ON \*.\* TO 'root'@'%' WITH GRANT OPTION;
   
 mysql> Flush privileges
 
